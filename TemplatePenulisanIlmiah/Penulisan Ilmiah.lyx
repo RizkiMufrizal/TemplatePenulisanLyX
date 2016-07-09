@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass book
 \begin_preamble
 %% \renewcommand{\chapter}[1]{\chapter[#1]{\centering #1}}
@@ -84,16 +86,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman charter
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "charter" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -224,6 +226,10 @@ vspace*{10mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -270,6 +276,10 @@ vspace*{12mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -297,6 +307,10 @@ vspace*{6mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -321,6 +335,10 @@ vspace*{1cm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -328,7 +346,7 @@ vspace*{1cm}
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="1">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="middle" width="13cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
@@ -403,7 +421,7 @@ Judul}
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="left" valignment="top">
@@ -661,6 +679,10 @@ vspace*{10mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -761,7 +783,7 @@ Saya yang bertanda tangan di bawah ini:
 \paragraph_spacing single
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="35mm">
 <column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="60text%">
@@ -1015,7 +1037,7 @@ vspace*{25mm}
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -1140,7 +1162,7 @@ addcontentsline{toc}{chapter}{Lembar Pengesahan}
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="left" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="left" valignment="top" width="60text%">
@@ -1354,13 +1376,17 @@ TanggalLulus
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top" width="1.3cm">
 <column alignment="center" valignment="top">
@@ -2372,13 +2398,17 @@ vspace*{20mm}
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \align right
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="1">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -2883,7 +2913,7 @@ Daftar Pendapatan Restribusi Parkir
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="5" columns="3">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="right" valignment="top" width="0pt">
 <column alignment="center" valignment="top">
@@ -3086,7 +3116,7 @@ Daftar Merek
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="4">
-<features rotate="0" tabularvalignment="middle">
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -3336,7 +3366,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/rizki/Documents/TemplatePenulisanLyx/TemplateSkripsi/LogoGunadarma.jpg
+	filename LogoGunadarma.jpg
 	width 4cm
 
 \end_inset
