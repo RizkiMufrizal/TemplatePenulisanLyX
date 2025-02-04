@@ -1,5 +1,5 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
-\lyxformat 620
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -81,11 +81,11 @@
 %\usepackage{indentfirst}
 \end_preamble
 \use_default_options true
-\maintain_unincluded_children no
+\maintain_unincluded_children false
 \language bahasa
 \language_package default
-\inputencoding auto-legacy
-\fontencoding auto
+\inputencoding auto
+\fontencoding global
 \font_roman "charter" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -93,9 +93,7 @@
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
-\font_roman_osf false
-\font_sans_osf false
-\font_typewriter_osf false
+\font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
 \use_microtype false
@@ -108,7 +106,7 @@
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
-\papersize a4
+\papersize a4paper
 \use_geometry true
 \use_package amsmath 1
 \use_package amssymb 1
@@ -129,9 +127,7 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
 \index Indeks
 \shortcut idx
 \color #008000
@@ -151,16 +147,11 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tablestyle default
 \tracking_changes false
 \output_changes false
-\change_bars false
-\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
-\docbook_table_output 0
-\docbook_mathml_prefix 1
 \end_header
 
 \begin_body
@@ -278,7 +269,7 @@ vspace*{12mm}
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename logoamik.jpeg
+	filename /home/rizki/Documents/dosen/repository/tulisan/logoamik.jpeg
 	width 35mm
 
 \end_inset
@@ -871,12 +862,14 @@ TanggalLulus
 
 \begin_layout Standard
 \paragraph_spacing single
-Menyatakan bahwa tulisan di atas merupakan hasil karya saya sendiri dan dapat dipublikasikan sepenuhnya oleh Universitas Gunadarma.
- Segala kutipan dalam bentuk apapun telah mengikuti kaidah dan etika yang berlaku.
- Semua hak cipta dari logo serta produk yang disebut dalam buku ini adalah milik masing-masing pemegang haknya,
- kecuali disebutkan lain.
- Mengenai isi dan tulisan merupakan tanggung jawab Penulis,
- bukan Universitas Gunadarma.
+Menyatakan bahwa tulisan di atas merupakan hasil karya saya sendiri dan
+ dapat dipublikasikan sepenuhnya oleh Universitas Gunadarma.
+ Segala kutipan dalam bentuk apapun telah mengikuti kaidah dan etika yang
+ berlaku.
+ Semua hak cipta dari logo serta produk yang disebut dalam buku ini adalah
+ milik masing-masing pemegang haknya, kecuali disebutkan lain.
+ Mengenai isi dan tulisan merupakan tanggung jawab Penulis, bukan Universitas
+ Gunadarma.
  
 \end_layout
 
@@ -919,8 +912,7 @@ status open
 
 
 \backslash
-Kota,
- 
+Kota, 
 \backslash
  
 \end_layout
@@ -1816,8 +1808,7 @@ Judul}
 \begin_inset Newline newline
 \end_inset
 
-Penulisan Ilmiah,
- Fakultas 
+Penulisan Ilmiah, Fakultas 
 \begin_inset ERT
 status open
 
@@ -1830,8 +1821,7 @@ Fakultas
 
 \end_inset
 
-,
- Jurusan 
+, Jurusan 
 \begin_inset ERT
 status open
 
@@ -1844,9 +1834,7 @@ Jurusan
 
 \end_inset
 
-,
- Universitas Gunadarma,
- 
+, Universitas Gunadarma, 
 \begin_inset ERT
 status open
 
@@ -1876,8 +1864,7 @@ noindent
 
 \end_inset
 
- Kata Kunci :
- 
+ Kata Kunci : 
 \begin_inset ERT
 status open
 
@@ -1953,17 +1940,19 @@ JumlahHalaman
 \end_layout
 
 \begin_layout Standard
-Perpustakaan XYZ merupakan perpustakaan akademik yang dapat melakukan fungsi seperti membuat akun pengguna,
- peminjaman dan menambahkan data buku.
+Perpustakaan XYZ merupakan perpustakaan akademik yang dapat melakukan fungsi
+ seperti membuat akun pengguna, peminjaman dan menambahkan data buku.
  Penerapan aplikasi perpustakaan XYZ belum memanfaatkan teknologi REST API.
- Aplikasi perpustakaan XYZ masih berdiri sendiri tanpa dapat di hubungkan oleh 
+ Aplikasi perpustakaan XYZ masih berdiri sendiri tanpa dapat di hubungkan
+ oleh 
 \emph on
 platform
 \emph default
  perangkat lunak lainnya.
- Penulisan ini bertujuan untuk mengembangkan sebuah bentuk API bagi perpustakaan XYZ agar dapat memfasilitasi kebutuhan tersebut.
- API pada perpustakaan XYZ memiliki arsitektur REST API,
- artinya dapat digunakan untuk pemrosesan data buku baik yang dikirimkan dari 
+ Penulisan ini bertujuan untuk mengembangkan sebuah bentuk API bagi perpustakaan
+ XYZ agar dapat memfasilitasi kebutuhan tersebut.
+ API pada perpustakaan XYZ memiliki arsitektur REST API, artinya dapat digunakan
+ untuk pemrosesan data buku baik yang dikirimkan dari 
 \emph on
 server
 \emph default
@@ -1978,8 +1967,7 @@ client
 \emph default
 API dibangun dengan menggunakan bahasa pemrograman 
 \emph on
-Java 8,
- Spring MVC
+Java 8, Spring MVC
 \emph default
  sebagai struktur aplikasi dan 
 \emph on
@@ -1994,8 +1982,8 @@ framework
 \emph on
  
 \emph default
-API,
- maka dapat mempermudah pengembangan aplikasi pada perpustakaan XYZ dan memiliki format pertukaran data dalam bentuk JSON untuk semua 
+API, maka dapat mempermudah pengembangan aplikasi pada perpustakaan XYZ
+ dan memiliki format pertukaran data dalam bentuk JSON untuk semua 
 \emph on
 client
 \emph default
@@ -2068,8 +2056,8 @@ addcontentsline{toc}{chapter}{Kata Pengantar}
 \end_layout
 
 \begin_layout Standard
-Puji syukut kehadirat Allah SWT,
- karena atas rahmat dan hidayah-Nya penulis dapat menyelesaikan penulisan ilmiah ini dengan judul 
+Puji syukut kehadirat Allah SWT, karena atas rahmat dan hidayah-Nya penulis
+ dapat menyelesaikan penulisan ilmiah ini dengan judul 
 \series bold
 
 \begin_inset Quotes eld
@@ -2095,15 +2083,17 @@ Judul
 
 \series default
 .
- Penulisan ilmiah ini dibuat untuk melengkapi salah satu syarat mencapai jenjang setara sarjana muda pada program pendidikan di Universitas Gunadarama.
+ Penulisan ilmiah ini dibuat untuk melengkapi salah satu syarat mencapai
+ jenjang setara sarjana muda pada program pendidikan di Universitas Gunadarama.
 \end_layout
 
 \begin_layout Standard
-Keberhasilan penulisa dalam menyelesaikan penulisan ilmiah ini tidak lepas dari bantuan dan dukungan dari berbagai pihak,
- walaupun banyak hambatan dan kesulitan yang dihadapi,
- namun hal tersebut menjadi pelajaran dan pengalaman yang berharga yang berkesan bagi penulis.
- Oleh sebab itu,
- dalam kesampatan ini penulis ingin mengucapkan terima kasih kepada :
+Keberhasilan penulisa dalam menyelesaikan penulisan ilmiah ini tidak lepas
+ dari bantuan dan dukungan dari berbagai pihak, walaupun banyak hambatan
+ dan kesulitan yang dihadapi, namun hal tersebut menjadi pelajaran dan pengalama
+n yang berharga yang berkesan bagi penulis.
+ Oleh sebab itu, dalam kesampatan ini penulis ingin mengucapkan terima kasih
+ kepada :
 \end_layout
 
 \begin_layout Enumerate
@@ -2120,8 +2110,7 @@ Rektor
 
 \end_inset
 
-,
- selaku Rektor Universitas Gunadarma.
+, selaku Rektor Universitas Gunadarma.
 \end_layout
 
 \begin_layout Enumerate
@@ -2138,9 +2127,7 @@ Dekan
 
 \end_inset
 
-,
- selaku Dekan Fakultas Teknologi Industri,
- Universitas Gunadarma.
+, selaku Dekan Fakultas Teknologi Industri, Universitas Gunadarma.
 \end_layout
 
 \begin_layout Enumerate
@@ -2157,8 +2144,7 @@ KetuaJurusan
 
 \end_inset
 
-,
- selaku Ketua Jurusan 
+, selaku Ketua Jurusan 
 \begin_inset ERT
 status open
 
@@ -2171,8 +2157,7 @@ Jurusan
 
 \end_inset
 
-,
- Universitas Gunadarma.
+, Universitas Gunadarma.
 \end_layout
 
 \begin_layout Enumerate
@@ -2189,8 +2174,7 @@ PejabatBagianSidang
 
 \end_inset
 
-,
- selaku Koordinator PI Jurusan Teknik Informatika.
+, selaku Koordinator PI Jurusan Teknik Informatika.
 \end_layout
 
 \begin_layout Enumerate
@@ -2207,50 +2191,56 @@ KetuaPembimbing
 
 \end_inset
 
-,
- sebagai Pembimbing penulis yang ditengah- tengah aktifitas dan kesibukannya telah membimbing penulis dan memberikan dorongan sehingga penulisan ini dapat diselesaikan.
+, sebagai Pembimbing penulis yang ditengah- tengah aktifitas dan kesibukannya
+ telah membimbing penulis dan memberikan dorongan sehingga penulisan ini
+ dapat diselesaikan.
 \end_layout
 
 \begin_layout Enumerate
-Kedua orang tua,
- kakak dan adik tercinta yang selalu mendukung dan terus memberikan motivasi.
+Kedua orang tua, kakak dan adik tercinta yang selalu mendukung dan terus
+ memberikan motivasi.
 \end_layout
 
 \begin_layout Enumerate
-Teman-teman Asisten Laboratorium Teknik Informatika yang selalu memberikan masukan untuk penulis tentang bagaimana cara penulisan yang baik dan benar.
+Teman-teman Asisten Laboratorium Teknik Informatika yang selalu memberikan
+ masukan untuk penulis tentang bagaimana cara penulisan yang baik dan benar.
 \end_layout
 
 \begin_layout Enumerate
-Teman-teman kelas 3IA04 angkatan 2012 yang telah memberikan semangat,
- do’a dan informasi terhadap hasil penulisan ini.
+Teman-teman kelas 3IA04 angkatan 2012 yang telah memberikan semangat, do’a
+ dan informasi terhadap hasil penulisan ini.
 \end_layout
 
 \begin_layout Enumerate
-Seluruh rekan seperjuangan di Universitas Gunadarma yang telah banyak membantu penulis.
+Seluruh rekan seperjuangan di Universitas Gunadarma yang telah banyak membantu
+ penulis.
 \end_layout
 
 \begin_layout Enumerate
-Semua pihak yang tidak tersebutkan yang telah membantu penyelesaian Tugas Akhir ini,
- penulis ucapkan juga terima kasih atas segala bantuan dan sarannya.
+Semua pihak yang tidak tersebutkan yang telah membantu penyelesaian Tugas
+ Akhir ini, penulis ucapkan juga terima kasih atas segala bantuan dan sarannya.
  
 \end_layout
 
 \begin_layout Standard
-Sebagai manusia biasa yang tak luput dari kesalahan,
- maka penulis meminta maaf atas segala kekurangan dan keterbatasan dalam penyusunan penulisan ilmiah ini.
+Sebagai manusia biasa yang tak luput dari kesalahan, maka penulis meminta
+ maaf atas segala kekurangan dan keterbatasan dalam penyusunan penulisan
+ ilmiah ini.
  
 \end_layout
 
 \begin_layout Standard
-Akhir kata,
- hanya kepada Tuhan jualah segalanya dikembalikan dan penulis sadari bahwa penulisan ini masih jauh dari sempurna,
- disebabkan karena berbagai keterbatasan yang penulis miliki.
- Untuk itu penulis mengharapkan kritik dan saran yang bersifat membangun untuk menjadi perbaikan di masa yang akan datang.
+Akhir kata, hanya kepada Tuhan jualah segalanya dikembalikan dan penulis
+ sadari bahwa penulisan ini masih jauh dari sempurna, disebabkan karena
+ berbagai keterbatasan yang penulis miliki.
+ Untuk itu penulis mengharapkan kritik dan saran yang bersifat membangun
+ untuk menjadi perbaikan di masa yang akan datang.
  
 \end_layout
 
 \begin_layout Standard
-Semoga apa yang ada pada penulisan ilmiah ini dapat bermanfaat bagi kita semua.
+Semoga apa yang ada pada penulisan ilmiah ini dapat bermanfaat bagi kita
+ semua.
  Amin.
 \end_layout
 
@@ -2311,8 +2301,7 @@ Kota
 
 \end_inset
 
-,
- 
+, 
 \begin_inset ERT
 status open
 
@@ -2621,8 +2610,8 @@ Latar Belakang
 \end_layout
 
 \begin_layout Standard
-Oleh karena itu,
- penulisan ini dimaksudkan untuk membangun sebuah API pada Perpustakaan XYZ yang memiliki aristektur REST dengan judul 
+Oleh karena itu, penulisan ini dimaksudkan untuk membangun sebuah API pada
+ Perpustakaan XYZ yang memiliki aristektur REST dengan judul 
 \series bold
 
 \begin_inset Quotes eld
@@ -2681,8 +2670,7 @@ Sistematika Penulisan
 \end_layout
 
 \begin_layout Standard
-Sistematika penulisan ini terdiri dari 4 bab diantaranya :
- 
+Sistematika penulisan ini terdiri dari 4 bab diantaranya : 
 \end_layout
 
 \begin_layout Standard
@@ -2714,50 +2702,58 @@ LANDASAN TEORI
 \end_layout
 
 \begin_layout Standard
-Persatuan Indonesia dengna ini saya menyatkan bahwa sayan semua yang ada di dunia ini fana adanya.Bintang Belanda Arjen Robben dan Nigel de Jong mengkritik kepemimpinan wasit asal Inggris Howard Webb setelah tim Oranje dipaksa menyerah oleh tendangan Andrés Iniesta saat perpanjangan waktu final Piala Dunia 2010.
+Persatuan Indonesia dengna ini saya menyatkan bahwa sayan semua yang ada
+ di dunia ini fana adanya.Bintang Belanda Arjen Robben dan Nigel de Jong
+ mengkritik kepemimpinan wasit asal Inggris Howard Webb setelah tim Oranje
+ dipaksa menyerah oleh tendangan Andrés Iniesta saat perpanjangan waktu
+ final Piala Dunia 2010.
 \end_layout
 
 \begin_layout Standard
-Spanyol untuk pertama kalinya mengangkat trofi Piala Dunia setelah melalui laga final yang ketat.
- Selama pertandingan di Soccer City tersebut,
- wasit mengeluarkan tujuh kartu kuning dan mengeluarkan pemain Belanda,
- John Heitinga,
- dari lapangan saat perpanjangan waktu karena mendapat dua kali kartu kuning.
+Spanyol untuk pertama kalinya mengangkat trofi Piala Dunia setelah melalui
+ laga final yang ketat.
+ Selama pertandingan di Soccer City tersebut, wasit mengeluarkan tujuh kartu
+ kuning dan mengeluarkan pemain Belanda, John Heitinga, dari lapangan saat
+ perpanjangan waktu karena mendapat dua kali kartu kuning.
 \end_layout
 
 \begin_layout Standard
-Tendangan Iniesta mengakhiri perlawanan Belanda dan membuat negeri kincir angin tersebut menelan kekalahan ketiga dalam tiga kali penampilan di final Piala Dunia.
- Robben sempat marah karena pada tujuh menit terakhir,
- wasit tidak menghukum Carles Puyol dengan kartu merah karena berupaya menghalangi langkah gelandang lincah Belanda itu yang akan menjebol gawang Iker Casillas.
+Tendangan Iniesta mengakhiri perlawanan Belanda dan membuat negeri kincir
+ angin tersebut menelan kekalahan ketiga dalam tiga kali penampilan di final
+ Piala Dunia.
+ Robben sempat marah karena pada tujuh menit terakhir, wasit tidak menghukum
+ Carles Puyol dengan kartu merah karena berupaya menghalangi langkah gelandang
+ lincah Belanda itu yang akan menjebol gawang Iker Casillas.
 \end_layout
 
 \begin_layout Standard
-Masalah driver di Linux ini,
- disebabkan faktor teknis dan non teknis yang menimbulkan beberapa kondisi.
- Kondisi pertama yaitu tidak disediakannya driver oleh pembuat perangkat keras,
- tetapi informasi perangkat keras tersebut tersedia secara terbuka.
+Masalah driver di Linux ini, disebabkan faktor teknis dan non teknis yang
+ menimbulkan beberapa kondisi.
+ Kondisi pertama yaitu tidak disediakannya driver oleh pembuat perangkat
+ keras, tetapi informasi perangkat keras tersebut tersedia secara terbuka.
  Sehingga memungkinkan pihak lain menulis driver untuk Linux.
- Kondisi kedua,
- tidak disediakannya driver oleh pihak produsen,
- dan juga tidak disediakan informasi secara terbuka tentang perangkat keras tersebut.
+ Kondisi kedua, tidak disediakannya driver oleh pihak produsen, dan juga
+ tidak disediakan informasi secara terbuka tentang perangkat keras tersebut.
  Sehingga sulit untuk menulis drivernya.
- Kondisi ketiga,
- adanya perjanjian rahasia antara perangkat keras dengan vendor perangkat lunak.
- Sehingga pembuat perangkat keras tersebut tidak bersedia membuat driver dan mencegah informasi perangkat kerasnya digunakan untuk menulis driver untuk sistem operasi lain.
- Kondisi keempat,
- banyak perangkat keras yang “mengurangi” komponen dengan menjalankan fungsinya melalui program yang dijalankan di sistem opersi tertentu.
- Jadi alih-alih menggunakan hardware,
- fungsi itu dilakukan oleh suatu software yang dijalankan di sistem operasi khusus.
- Pada kondisi ini perangkat keras memang didisain untuk tidak portabel dengan sistem operasi lainnya.
- Pada kondisi perangkat keras yang drivernya hanya dapat berjalan di MS Windows saja,
- sebetulnya pengguna berada pada pihak yang lemah.
+ Kondisi ketiga, adanya perjanjian rahasia antara perangkat keras dengan
+ vendor perangkat lunak.
+ Sehingga pembuat perangkat keras tersebut tidak bersedia membuat driver
+ dan mencegah informasi perangkat kerasnya digunakan untuk menulis driver
+ untuk sistem operasi lain.
+ Kondisi keempat, banyak perangkat keras yang “mengurangi” komponen dengan
+ menjalankan fungsinya melalui program yang dijalankan di sistem opersi
+ tertentu.
+ Jadi alih-alih menggunakan hardware, fungsi itu dilakukan oleh suatu software
+ yang dijalankan di sistem operasi khusus.
+ Pada kondisi ini perangkat keras memang didisain untuk tidak portabel dengan
+ sistem operasi lainnya.
+ Pada kondisi perangkat keras yang drivernya hanya dapat berjalan di MS
+ Windows saja, sebetulnya pengguna berada pada pihak yang lemah.
  Karena masa depan pilihannya ditentukan oleh vendor tersebut.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
-placement document
-alignment document
 wide false
 sideways false
 status open
@@ -2940,25 +2936,27 @@ Harus jaga rahasia
 \end_layout
 
 \begin_layout Standard
-Tentu saja hal itu tidak menyurutkan pemrogram dan vendor Open Source untuk menyediakan driver.
- Ada beberapa pendekatan yang digunakan sebagai solusi kebutuhan driver ini.
- Pendekatan pertama adalah kondisi ideal yaitu produsen perangkat keras menyediakan driver untuk Linux dan driver tersebut berlisensi Open Source.
- Saat ini sudah mulai banyak perangkat keras yang sudah menyertakan driver untuk Linux,
- misal beberapa printer,
- kartu jaringan.
- Pendekatan kedua yang juga masih ideal,
- yaitu walau tak ada driver dari produsen tersebut,
- tapi produsen itu membuka informasi tentang perangkat keras dan membolehkan pihak lain menuliskan drivernya.
- Bahkan saat ini para programmer Linux membuka kesempatan bagi para produsen perangkat keras yang tidak ingin menulis drivernya di Linux,
- tapi bersedia membuka informasi tentang perangkat kerasnya,
- maka developer Linux akan menuliskan driver untuk vendor tersebut.
- Mudah-mudahan dengan langkah ini makin banyak vendor perangkat keras yang menyediakan driver di Linux.
+Tentu saja hal itu tidak menyurutkan pemrogram dan vendor Open Source untuk
+ menyediakan driver.
+ Ada beberapa pendekatan yang digunakan sebagai solusi kebutuhan driver
+ ini.
+ Pendekatan pertama adalah kondisi ideal yaitu produsen perangkat keras
+ menyediakan driver untuk Linux dan driver tersebut berlisensi Open Source.
+ Saat ini sudah mulai banyak perangkat keras yang sudah menyertakan driver
+ untuk Linux, misal beberapa printer, kartu jaringan.
+ Pendekatan kedua yang juga masih ideal, yaitu walau tak ada driver dari
+ produsen tersebut, tapi produsen itu membuka informasi tentang perangkat
+ keras dan membolehkan pihak lain menuliskan drivernya.
+ Bahkan saat ini para programmer Linux membuka kesempatan bagi para produsen
+ perangkat keras yang tidak ingin menulis drivernya di Linux, tapi bersedia
+ membuka informasi tentang perangkat kerasnya, maka developer Linux akan
+ menuliskan driver untuk vendor tersebut.
+ Mudah-mudahan dengan langkah ini makin banyak vendor perangkat keras yang
+ menyediakan driver di Linux.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
-placement document
-alignment document
 wide false
 sideways false
 status open
@@ -3149,66 +3147,79 @@ Results
 \end_layout
 
 \begin_layout Standard
-Pendekatan lainnya adalah kondisi non ideal tapi tetap masih memungkinkan pengguna memanfaatkan perangkat keras yang bersangkutan.
- Misal kondisi di mana produsen perangkat keras menyediaikan driver,
- tetapi driver tersebut bersifat proprietary (hanya kode biner saja,
- misal pada NVIDIA).
- Solusi lain adalah firmware di driver Windows dapat “diserap” dan digunakan sebagai firmware di driver Linux.
+Pendekatan lainnya adalah kondisi non ideal tapi tetap masih memungkinkan
+ pengguna memanfaatkan perangkat keras yang bersangkutan.
+ Misal kondisi di mana produsen perangkat keras menyediaikan driver, tetapi
+ driver tersebut bersifat proprietary (hanya kode biner saja, misal pada
+ NVIDIA).
+ Solusi lain adalah firmware di driver Windows dapat “diserap” dan digunakan
+ sebagai firmware di driver Linux.
  Misal pada beberapa kartu jaringan Broadcom.
- Solusi jenis lain yang dapat dilakukan adalah dengan menggunakan program ndiswrapper,
- maka driver di MS Windows dapat digunakan oleh pengguna Linux..
- Pada kondisi produsen tidak memberikan informasi perangkat keras tersebut secara terbuka,
- maka developer Linux perlu melakukan clean room reverse engineering,
- untuk menebak-nebak cara kerja perangkat keras,
- dan dapat dibuat driver yang bersifat Open Source.
+ Solusi jenis lain yang dapat dilakukan adalah dengan menggunakan program
+ ndiswrapper, maka driver di MS Windows dapat digunakan oleh pengguna Linux..
+ Pada kondisi produsen tidak memberikan informasi perangkat keras tersebut
+ secara terbuka, maka developer Linux perlu melakukan clean room reverse
+ engineering, untuk menebak-nebak cara kerja perangkat keras, dan dapat
+ dibuat driver yang bersifat Open Source.
  Hal ini dilakukan pada beberapa driver wireless di Linux.
 \end_layout
 
 \begin_layout Standard
-Bila pemerintah Indonesia berkeinginan melakukan optimasi pemanfaat perangkat keras,
- maka perlu dipertimbangkan peraturan procurement perangkat keras yang harus dapat menggunakan sistem operasi lebih beragam..Artinya setiap perangkat keras yang dibeli pemerintah harus dapat dijalankan pada lebih dari 1 jenis sistem operasi,
- sistem operasi proprietary dan sistem operasi open source.
+Bila pemerintah Indonesia berkeinginan melakukan optimasi pemanfaat perangkat
+ keras, maka perlu dipertimbangkan peraturan procurement perangkat keras
+ yang harus dapat menggunakan sistem operasi lebih beragam..Artinya setiap
+ perangkat keras yang dibeli pemerintah harus dapat dijalankan pada lebih
+ dari 1 jenis sistem operasi, sistem operasi proprietary dan sistem operasi
+ open source.
  Hal ini akan memperlebar pilihan di masa mendatang.
- Untuk melakukan langkah itu ada beberapa kemungkinan peraturan yang dapat ditempuh.
- Kemungkinan pertama adalah menerapkan regulasi yang mewajibkan semua perangkat keras yang dijual di Indonesia harus disertai dengan driver untuk sistem operasi yang lebih dari 1 jenis (misal Linux,
- FreeBSD,
- atau Mac).
- Tetapi tentu saja regulasi seperti di atas sangat sulit diterapkan,
- karena melibatkan vendor perangkat keras,
- penjual,
- dan juga produsen perangkat keras.
- Sehingga takutnya hanya menjadi hitam di atas putih saja,
- atau para vendor berteriak merasa mendapat beban tambahan.
+ Untuk melakukan langkah itu ada beberapa kemungkinan peraturan yang dapat
+ ditempuh.
+ Kemungkinan pertama adalah menerapkan regulasi yang mewajibkan semua perangkat
+ keras yang dijual di Indonesia harus disertai dengan driver untuk sistem
+ operasi yang lebih dari 1 jenis (misal Linux, FreeBSD, atau Mac).
+ Tetapi tentu saja regulasi seperti di atas sangat sulit diterapkan, karena
+ melibatkan vendor perangkat keras, penjual, dan juga produsen perangkat
+ keras.
+ Sehingga takutnya hanya menjadi hitam di atas putih saja, atau para vendor
+ berteriak merasa mendapat beban tambahan.
 \end_layout
 
 \begin_layout Standard
-Kemungkinan lainnya adalah mewajibkan bahwa setiap perangkat keras yang dibeli pemerintah harus kompatibel dengan lebih dari 1 jenis sistem operasi.
- Untuk menerapkan regulasi seperti ini,
- relatif lebih mudah.
- Pemerintah dapat mengeluarkan daftar perangkat keras yang kompatibel dengan lebih dari 1 jenis sistem operasi.
- Atau dapat juga perangkat keras yang ingin digunakan pemerintah telah melalui pengujian kompatibilitas oleh suatu pusat pengujian kompatibilitas yang independen.
- Semua informasi ini dikumpulkan pada suatu Pusat Kompatibilitas dan Interoperabilitas.
- Dengan adanya pusat ini,
- maka publik termasuk perusahaan yang turut serta dalam proyek pengadaan perangkat keras dapat memperoleh informasi tentang kompatibilitas perangkat keras yang diajukannya.
- Pusat kompatibilitas ini dapat saja dikelola oleh tim IGOS dengan bekerja sama misal dengan vendor ataupun pihak lainnya.
- Di samping menyediakan infomasi,
- pusat ini juga secara aktif menguji kompatibilitas perangkat keras yang ada di pasaran.
+Kemungkinan lainnya adalah mewajibkan bahwa setiap perangkat keras yang
+ dibeli pemerintah harus kompatibel dengan lebih dari 1 jenis sistem operasi.
+ Untuk menerapkan regulasi seperti ini, relatif lebih mudah.
+ Pemerintah dapat mengeluarkan daftar perangkat keras yang kompatibel dengan
+ lebih dari 1 jenis sistem operasi.
+ Atau dapat juga perangkat keras yang ingin digunakan pemerintah telah melalui
+ pengujian kompatibilitas oleh suatu pusat pengujian kompatibilitas yang
+ independen.
+ Semua informasi ini dikumpulkan pada suatu Pusat Kompatibilitas dan Interoperab
+ilitas.
+ Dengan adanya pusat ini, maka publik termasuk perusahaan yang turut serta
+ dalam proyek pengadaan perangkat keras dapat memperoleh informasi tentang
+ kompatibilitas perangkat keras yang diajukannya.
+ Pusat kompatibilitas ini dapat saja dikelola oleh tim IGOS dengan bekerja
+ sama misal dengan vendor ataupun pihak lainnya.
+ Di samping menyediakan infomasi, pusat ini juga secara aktif menguji kompatibil
+itas perangkat keras yang ada di pasaran.
 \end_layout
 
 \begin_layout Standard
 Di samping adanya informasi tentang perangkat keras mana saja yang kompatibel,
- pemerintah melalaui pusat ini perlu juga menyediakan suatu repository yang berisi driver-driver tambahan,
- serta informasi tentang bagaimana trick untuk mengatasi masalah driver di sistem operasi Open Source tersebut.
- Biasanya pengguna Linux memecahkan masalah driver dengan cara mencari-cari informasi di Internet.
+ pemerintah melalaui pusat ini perlu juga menyediakan suatu repository yang
+ berisi driver-driver tambahan, serta informasi tentang bagaimana trick
+ untuk mengatasi masalah driver di sistem operasi Open Source tersebut.
+ Biasanya pengguna Linux memecahkan masalah driver dengan cara mencari-cari
+ informasi di Internet.
  Seringkali orang lain telah membuat pemecahan akan masalah driver tersebut,
  dan pengguna cukup mengunduh dan menginstalnya.
- Masalah terbesar mengatasi problem driver adalah mengetahui informasi yang tersebar tersebut.
- Dengan cara menyediakan repository berupa knowledge base yang memecahkan masalah driver itu,
- maka akan sangat membantu proses pemanfaatan Open Source di kalangan pemerintah.
+ Masalah terbesar mengatasi problem driver adalah mengetahui informasi yang
+ tersebar tersebut.
+ Dengan cara menyediakan repository berupa knowledge base yang memecahkan
+ masalah driver itu, maka akan sangat membantu proses pemanfaatan Open Source
+ di kalangan pemerintah.
  Tentu saja knowledge base ini harus secara rutin diupdate oleh pengelolanya.
 \begin_inset Float figure
-placement document
-alignment document
 wide false
 sideways false
 status open
@@ -3216,7 +3227,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename logoamik.jpeg
+	filename LogoGunadarma.jpg
 	width 4cm
 
 \end_inset
@@ -3228,7 +3239,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Logo AMIK
+Logo Gunadarma
 \end_layout
 
 \end_inset
@@ -3242,43 +3253,48 @@ Logo AMIK
 \end_layout
 
 \begin_layout Standard
-Langkah lainnya yang perlu dilakukan pemerintah adalah menyediakan dana riset dan pengembangan untuk penulisan driver perangkat keras di Linux.
- Sehingga dapat dibuat driver untuk perangkat keras yang belum ada driver untuk sistem operasi Open Source.
- Termapat suk juga pemerintah damelakukan pendekatan ke vendor sehingga mereka bersedia membuka informasi perangkat keras dan memudahkan programmer Open Source untuk membuat drivernya.
- Dengan cara ini pemerintah tidak saja memanfaatkan Open Source,
- tapi secara aktif membantu perkembangan Open Source.Tentu saja semua itu dapat berjalan,
+Langkah lainnya yang perlu dilakukan pemerintah adalah menyediakan dana
+ riset dan pengembangan untuk penulisan driver perangkat keras di Linux.
+ Sehingga dapat dibuat driver untuk perangkat keras yang belum ada driver
+ untuk sistem operasi Open Source.
+ Termapat suk juga pemerintah damelakukan pendekatan ke vendor sehingga
+ mereka bersedia membuka informasi perangkat keras dan memudahkan programmer
+ Open Source untuk membuat drivernya.
+ Dengan cara ini pemerintah tidak saja memanfaatkan Open Source, tapi secara
+ aktif membantu perkembangan Open Source.Tentu saja semua itu dapat berjalan,
  bila pemerintah Indonesia berniat menyelamatkan investasi perangkat kerasnya.
- Negara tetangga Malaysia melalui MAMPU,
- mencoba menelurkan kebijakan yang memihak ke Open Source,
- dengan tujuan meningkatkan penggunaan perangkat lunak,
- meningkatkan interoperabilitas,
- dan dengan adanya source code mencoba meningkatkan dukungan dan perawatan dan menghindari lock-in dari satu vendor serta meninrgkatkan keamanan.
- Tentu saja menurunkan Total Cost of Ownership (TCO) disamping mendorong kebanggan pada produk sendiri.
- Brazil,
- tanpa malu-malu menunjukkan dengan jelas keberpihakan pada Open Source dalam proses procurement di badan pemerintah.
- Misal memprioritaskan penggunaan perangkat lunak Open Source,
- mengutamakan pengadopsian standard terbuka termasuk untuk jaminan interoperabilitas,
+ Negara tetangga Malaysia melalui MAMPU, mencoba menelurkan kebijakan yang
+ memihak ke Open Source, dengan tujuan meningkatkan penggunaan perangkat
+ lunak, meningkatkan interoperabilitas, dan dengan adanya source code mencoba
+ meningkatkan dukungan dan perawatan dan menghindari lock-in dari satu vendor
+ serta meninrgkatkan keamanan.
+ Tentu saja menurunkan Total Cost of Ownership (TCO) disamping mendorong
+ kebanggan pada produk sendiri.
+ Brazil, tanpa malu-malu menunjukkan dengan jelas keberpihakan pada Open
+ Source dalam proses procurement di badan pemerintah.
+ Misal memprioritaskan penggunaan perangkat lunak Open Source, mengutamakan
+ pengadopsian standard terbuka termasuk untuk jaminan interoperabilitas,
  dan membatasi penggunaan teknologi proprietary.
- Di samping itu di dalam pengadaan perangkat keras yang diutamaan adalah pernangkat keras yang mendukung platform open source.
- Apakah Indonesia yang termasuk golongan Large Emerging Economies (E7) di samping China,
- India,
- Brazil,
- Rusia,
- Turki,
- Meksiko,
- juga berani menempuh langkah yang sama melalui IGOS-nya ?
- Ataukah takut dikira memihak ke salah pihak saja ?
+ Di samping itu di dalam pengadaan perangkat keras yang diutamaan adalah
+ pernangkat keras yang mendukung platform open source.
+ Apakah Indonesia yang termasuk golongan Large Emerging Economies (E7) di
+ samping China, India, Brazil, Rusia, Turki, Meksiko, juga berani menempuh
+ langkah yang sama melalui IGOS-nya ? Ataukah takut dikira memihak ke salah
+ pihak saja ?
 \end_layout
 
 \begin_layout Standard
-Pada dasarnya penerapan penggunaan Open Source yang dibarengi regulasi pemanfaatan perangkat keras akan mendorong pelaksanaan procurement yang mendukung transparansi,
- obyektif,
- dengan adanya justifikasi pilihan serta tidak melakukan diskriminasi.
+Pada dasarnya penerapan penggunaan Open Source yang dibarengi regulasi pemanfaat
+an perangkat keras akan mendorong pelaksanaan procurement yang mendukung
+ transparansi, obyektif, dengan adanya justifikasi pilihan serta tidak melakukan
+ diskriminasi.
  Jadi keputusan procurement yang mewajibkan kompatibilitas dengan Open Source,
- bukanlah berpihak pada vendor Open Source,
- tapi lebih kepada keinginan mengamankan investasi yang dengan dana masyarakat.
- Sustainibilitas sistem merupakan suatu hal yang penting dalam kesinambungan layanan eGovernment.
- Menjaga agar perangkat keras selalu dapat digunakan seoptimal mungkin adalah salah satu faktor penting menjaga sustanaibilitas sistem.
+ bukanlah berpihak pada vendor Open Source, tapi lebih kepada keinginan
+ mengamankan investasi yang dengan dana masyarakat.
+ Sustainibilitas sistem merupakan suatu hal yang penting dalam kesinambungan
+ layanan eGovernment.
+ Menjaga agar perangkat keras selalu dapat digunakan seoptimal mungkin adalah
+ salah satu faktor penting menjaga sustanaibilitas sistem.
 \end_layout
 
 \begin_layout Standard
