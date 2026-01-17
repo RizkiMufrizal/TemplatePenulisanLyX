@@ -64,7 +64,7 @@
 % The following commands set the page numbers on the top right
 % except in the beginning of chapters
 
-%AMIK
+%INAR
 \newcommand{\Judul}{Implementasi Arsitektur REST API Pada Perpustakaan XYZ berbasis Framework Spring MVC Dan Hibernate}
 \newcommand{\Penulis}{Rizki Mufrizal}
 \newcommand{\NPM}{58412085}
@@ -329,8 +329,8 @@ vspace*{1mm}
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename logoamik.jpeg
-	width 35mm
+	filename logo.png
+	scale 14
 
 \end_inset
 
@@ -575,7 +575,16 @@ PROGRAM STUDI MANAJEMEN INFORMATIKA
 
 \series bold
 \size large
-AMIK JABAL GHAFUR
+INSTITUT ILMU KESEHATAN DAN TEKNOLOGI 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 0.5
+\align center
+
+\series bold
+\size large
+NURDIN ABDURRAHMAN
 \end_layout
 
 \begin_layout Standard
@@ -625,7 +634,7 @@ Tahun
 \begin_layout Chapter*
 
 \size largest
-Lembaran Pengesahan Pembimbing
+Lembaran Persetujuan
 \end_layout
 
 \begin_layout Standard
@@ -851,11 +860,9 @@ Tugas akhir ini telah disahkan atau disetujui oleh:
 \begin_layout Standard
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="12">
+<lyxtabular version="3" rows="5" columns="10">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top">
-<column alignment="center" valignment="top">
-<column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -873,24 +880,6 @@ Tugas akhir ini telah disahkan atau disetujui oleh:
 
 \series bold
 Dosen Pembimbing 1
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -1061,24 +1050,6 @@ Dosen Pembimbing 1
 
 \end_inset
 </cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -1180,44 +1151,8 @@ Dosen Pembimbing 1
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -1425,24 +1360,6 @@ NIDNPembimbingA
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
@@ -1497,7 +1414,7 @@ NIDNPembimbingB
 \begin_layout Chapter*
 
 \size largest
-Lembar Pengesahan Penguji
+Lembar Pengesahan
 \end_layout
 
 \begin_layout Standard
@@ -3433,7 +3350,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename logoamik.jpeg
+	filename logo.png
 	width 4cm
 
 \end_inset
